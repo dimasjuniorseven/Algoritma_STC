@@ -4,7 +4,7 @@ from collections import defaultdict
 from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFactory
 
 # Load data CSV
-df = pd.read_csv('C:/Kelompok3.csv')  # Pastikan file dan path benar
+df = pd.read_csv('C:\\Users\ASUS\\DimasOktavianPrasetyo_22230016.csv')  # Pastikan file dan path benar
 tweets = df['Isi Tweet'].dropna().tolist()
 
 # Preprocessing & hapus stopword Indonesia
